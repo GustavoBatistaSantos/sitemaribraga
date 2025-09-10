@@ -1,0 +1,74 @@
+/*<style> */
+
+/* RESPONSIVO: telas até 768px (tablets e smartphones maiores) */
+@media (max-width: 768px) {
+  header {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 15px;
+  }
+
+  nav {
+    width: 100%;
+    justify-content: space-around;
+  }
+
+  nav a {
+    flex: 1;
+    text-align: center;
+    padding: 10px 0;
+    font-size: 0.9em;
+  }
+
+  main {
+    padding: 20px;
+    margin: 15px;
+  }
+
+  .cursos-grid {
+    flex-direction: column;
+    gap: 15px;
+  }
+
+  .curso-card {
+    flex: none;
+    width: 100%;
+  }
+}
+
+/* RESPONSIVO: telas pequenas até 480px (smartphones pequenos) */
+@media (max-width: 480px) {
+  .logo img {
+    width: 50px;
+    height: 50px;
+  }
+
+  .logo-text {
+    font-size: 1em;
+  }
+
+  .logo-text strong {
+    font-size: 1.1em;
+  }
+
+  h1 {
+    font-size: 1.5em;
+  }
+
+  .subtitle {
+    font-size: 1em;
+  }
+
+  nav a {
+    font-size: 0.8em;
+    padding: 8px 6px;
+  }
+
+  .curso-card h3 {
+    font-size: 1em;
+  }
+
+  .curso-card .icon {
+    font-size: 30px;
+  }
+}
